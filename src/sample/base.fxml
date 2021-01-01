@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ancpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="ImageBG" fitHeight="476.0" fitWidth="456.0" layoutX="-4.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/1245.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="userInputField" alignment="CENTER" focusColor="RED" labelFloat="true" layoutX="284.0" layoutY="404.0" prefHeight="33.0" prefWidth="146.0" promptText="AMOUNT TO DENOTE" unFocusColor="BLACK">
+         <font>
+            <Font name="Montserrat SemiBold" size="11.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="goButton" buttonType="RAISED" layoutX="363.0" layoutY="333.0" onAction="#goButtonOnAction" prefHeight="33.0" prefWidth="71.0" style="-fx-background-color: #000000;" text="GO" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="11.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="BLACK" offset="0.9987244897959184" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+      <Label layoutX="54.0" layoutY="206.0" text="1000s" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="244.0" prefHeight="19.0" prefWidth="37.0" text="200s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="58.0" layoutY="225.0" prefHeight="19.0" prefWidth="44.0" text="500s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="264.0" text="100s" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="224.0" prefHeight="19.0" prefWidth="37.0" text="20s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="205.0" prefHeight="19.0" prefWidth="44.0" text="50s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="243.0" prefHeight="19.0" prefWidth="37.0" text="10s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="167.0" layoutY="262.0" prefHeight="19.0" prefWidth="37.0" text="5s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="282.0" prefHeight="19.0" prefWidth="37.0" text="1s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="275.0" layoutY="206.0" prefHeight="19.0" prefWidth="53.0" text=".50s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="275.0" layoutY="225.0" prefHeight="19.0" prefWidth="53.0" text=".25s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="275.0" layoutY="244.0" prefHeight="19.0" prefWidth="53.0" text=".01s" textAlignment="RIGHT" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="183.0" text="WHOLES" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="275.0" layoutY="183.0" text="CENTS" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="onetlabel" layoutX="115.0" layoutY="206.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="fivehlabel" layoutX="115.0" layoutY="225.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="twohlabel" layoutX="115.0" layoutY="244.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="onehlabel" layoutX="115.0" layoutY="264.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="fiftylabel" layoutX="201.0" layoutY="205.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="twentylabel" layoutX="201.0" layoutY="224.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="tenlabel" layoutX="201.0" layoutY="243.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="fivelabel" layoutX="201.0" layoutY="262.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="onelabel" layoutX="201.0" layoutY="282.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="fiftyclabel" layoutX="324.0" layoutY="206.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="twofiveclabel" layoutX="324.0" layoutY="225.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="oneclabel" layoutX="324.0" layoutY="244.0" text="0" textFill="#ffc000">
+         <font>
+            <Font name="Montserrat SemiBold" size="15.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="exitButton" layoutX="413.0" layoutY="22.0" onAction="#exitButtonOnAction" text="X" textFill="RED">
+         <font>
+            <Font name="Montserrat SemiBold" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="errorlabel" layoutX="182.0" layoutY="421.0" prefHeight="13.0" prefWidth="86.0" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Montserrat SemiBold" size="9.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="resetButton" buttonType="RAISED" layoutX="372.0" layoutY="301.0" onAction="#resetButtonOnAction" prefHeight="14.0" prefWidth="53.0" style="-fx-background-color: RED;" text="RESET">
+         <font>
+            <Font name="Montserrat SemiBold" size="11.0" />
+         </font>
+         <ripplerFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="RED" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+      </JFXButton>
+   </children>
+</AnchorPane>
