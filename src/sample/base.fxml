@@ -36,132 +36,132 @@
             </LinearGradient>
          </ripplerFill>
       </JFXButton>
-      <Label layoutX="54.0" layoutY="206.0" text="1000s" textFill="#ffc000">
+      <Label layoutX="55.0" layoutY="206.0" prefHeight="19.0" prefWidth="44.0" stylesheets="@style.css" text="1000s" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="62.0" layoutY="244.0" prefHeight="19.0" prefWidth="37.0" text="200s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label layoutX="62.0" layoutY="244.0" prefHeight="19.0" prefWidth="37.0" stylesheets="@style.css" text="200s" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="58.0" layoutY="225.0" prefHeight="19.0" prefWidth="44.0" text="500s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label alignment="CENTER" layoutX="55.0" layoutY="225.0" prefHeight="19.0" prefWidth="44.0" stylesheets="@style.css" text="500s" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="65.0" layoutY="264.0" text="100s" textFill="#ffc000">
+      <Label layoutX="65.0" layoutY="264.0" stylesheets="@style.css" text="100s" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="157.0" layoutY="224.0" prefHeight="19.0" prefWidth="37.0" text="20s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label layoutX="157.0" layoutY="224.0" prefHeight="19.0" prefWidth="37.0" stylesheets="@style.css" text="20s" textAlignment="RIGHT" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="148.0" layoutY="205.0" prefHeight="19.0" prefWidth="44.0" text="50s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label alignment="CENTER" layoutX="148.0" layoutY="205.0" prefHeight="19.0" prefWidth="44.0" stylesheets="@style.css" text="50s" textAlignment="RIGHT" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="160.0" layoutY="243.0" prefHeight="19.0" prefWidth="37.0" text="10s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label layoutX="160.0" layoutY="243.0" prefHeight="19.0" prefWidth="37.0" stylesheets="@style.css" text="10s" textAlignment="RIGHT" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="167.0" layoutY="262.0" prefHeight="19.0" prefWidth="37.0" text="5s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label layoutX="167.0" layoutY="262.0" prefHeight="19.0" prefWidth="37.0" stylesheets="@style.css" text="5s" textAlignment="RIGHT" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="169.0" layoutY="282.0" prefHeight="19.0" prefWidth="37.0" text="1s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label layoutX="169.0" layoutY="282.0" prefHeight="19.0" prefWidth="37.0" stylesheets="@style.css" text="1s" textAlignment="RIGHT" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="275.0" layoutY="206.0" prefHeight="19.0" prefWidth="53.0" text=".50s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label layoutX="275.0" layoutY="206.0" prefHeight="19.0" prefWidth="53.0" stylesheets="@style.css" text=".50s" textAlignment="RIGHT" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="275.0" layoutY="225.0" prefHeight="19.0" prefWidth="53.0" text=".25s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label layoutX="275.0" layoutY="225.0" prefHeight="19.0" prefWidth="53.0" stylesheets="@style.css" text=".25s" textAlignment="RIGHT" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="275.0" layoutY="244.0" prefHeight="19.0" prefWidth="53.0" text=".01s" textAlignment="RIGHT" textFill="#ffc000">
+      <Label layoutX="275.0" layoutY="244.0" prefHeight="19.0" prefWidth="53.0" stylesheets="@style.css" text=".01s" textAlignment="RIGHT" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="115.0" layoutY="183.0" text="WHOLES" textFill="#ffc000">
+      <Label layoutX="115.0" layoutY="183.0" stylesheets="@style.css" text="WHOLES" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="11.0" />
          </font>
       </Label>
-      <Label layoutX="275.0" layoutY="183.0" text="CENTS" textFill="#ffc000">
+      <Label layoutX="275.0" layoutY="183.0" stylesheets="@style.css" text="CENTS" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="11.0" />
          </font>
       </Label>
-      <Label fx:id="onetlabel" layoutX="115.0" layoutY="206.0" text="0" textFill="#ffc000">
+      <Label fx:id="onetlabel" layoutX="115.0" layoutY="206.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="fivehlabel" layoutX="115.0" layoutY="225.0" text="0" textFill="#ffc000">
+      <Label fx:id="fivehlabel" layoutX="115.0" layoutY="225.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="twohlabel" layoutX="115.0" layoutY="244.0" text="0" textFill="#ffc000">
+      <Label fx:id="twohlabel" layoutX="115.0" layoutY="244.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="onehlabel" layoutX="115.0" layoutY="264.0" text="0" textFill="#ffc000">
+      <Label fx:id="onehlabel" layoutX="115.0" layoutY="264.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="fiftylabel" layoutX="201.0" layoutY="205.0" text="0" textFill="#ffc000">
+      <Label fx:id="fiftylabel" layoutX="201.0" layoutY="205.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="twentylabel" layoutX="201.0" layoutY="224.0" text="0" textFill="#ffc000">
+      <Label fx:id="twentylabel" layoutX="201.0" layoutY="224.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="tenlabel" layoutX="201.0" layoutY="243.0" text="0" textFill="#ffc000">
+      <Label fx:id="tenlabel" layoutX="201.0" layoutY="243.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="fivelabel" layoutX="201.0" layoutY="262.0" text="0" textFill="#ffc000">
+      <Label fx:id="fivelabel" layoutX="201.0" layoutY="262.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="onelabel" layoutX="201.0" layoutY="282.0" text="0" textFill="#ffc000">
+      <Label fx:id="onelabel" layoutX="201.0" layoutY="282.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="fiftyclabel" layoutX="324.0" layoutY="206.0" text="0" textFill="#ffc000">
+      <Label fx:id="fiftyclabel" layoutX="324.0" layoutY="206.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="twofiveclabel" layoutX="324.0" layoutY="225.0" text="0" textFill="#ffc000">
+      <Label fx:id="twofiveclabel" layoutX="324.0" layoutY="225.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
       </Label>
-      <Label fx:id="oneclabel" layoutX="324.0" layoutY="244.0" text="0" textFill="#ffc000">
+      <Label fx:id="oneclabel" layoutX="324.0" layoutY="244.0" stylesheets="@style.css" text="0" textFill="#ffc000">
          <font>
             <Font name="Montserrat SemiBold" size="15.0" />
          </font>
